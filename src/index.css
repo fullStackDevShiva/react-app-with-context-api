@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply w-full h-full;
+}
+
+body {
+  @apply w-full flex items-center justify-center;
+}
+
+:root {
+  @apply font-sans leading-normal font-normal text-center;
+}
+
+#root {
+  @apply w-full h-full my-0 mx-auto p-0;
+}
+
+h1 {
+  @apply text-4xl font-bold xs:text-2xl;
+}
+h2 {
+  @apply text-3xl font-bold xs:text-xl;
+}
+h3 {
+  @apply text-2xl font-bold xs:text-lg;
+}
+h4 {
+  @apply text-xl font-bold xs:text-base;
+}
+
+.icon {
+  @apply cursor-pointer;
+}
+
+.theme.light {
+  @apply w-full h-full p-12 xs:p-6 text-gray-700 bg-white relative;
+} 
+.theme.dark {
+  @apply w-full h-full p-12 xs:p-6 text-neutral-300 bg-black relative;
+}
+
+.card.light{
+  @apply w-full text-gray-700 border border-gray-400 border-solid rounded-2xl bg-gray-100 relative;
+}
+
+.card.dark{
+  @apply w-full text-slate-300 border border-neutral-300 border-solid rounded-2xl bg-slate-800 relative;
+}
+
+.product-list {
+  @apply grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-3 my-4;
+}
+
+
