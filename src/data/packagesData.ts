@@ -1,4 +1,4 @@
-export const products = [
+export const tripPackages = [
   {
     id: "1",
     name: "Paris - 1 day trip",

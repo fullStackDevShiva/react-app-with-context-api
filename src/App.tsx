@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import ProductList from "./components/ProductList";
+import ProductList from "./components/ItemList";
 import useTheme from "./custom-hooks/useTheme";
 
 function App() {

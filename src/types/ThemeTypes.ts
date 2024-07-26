@@ -4,12 +4,10 @@ export interface ThemeContextType {
   toggleTheme: () => void;
 }
 
-// Interface for Product type
-export interface Product {
-  product: {
+// Interface for Package type
+export interface TripPackage {
     id: string;
     name: string;
     price: string;
     img: string;
-  };
 }

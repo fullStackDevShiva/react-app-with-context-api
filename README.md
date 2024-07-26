@@ -11,7 +11,7 @@ This project demonstrates how to setup and use Context API in React app.
 
 ## Functionalities
 
-1. Creating multiple themes for the app using Context API. For this example, a header component and a list component are used to stwitch between the themes.
+1. Creating multiple themes for the app by managing global state with Context API. For this example, a header component and a list component are used to switch between the themes.
 
 Light Mode:
 
@@ -21,8 +21,6 @@ Dark Mode:
 
 ![ipad-dark](https://github.com/user-attachments/assets/e67d16d7-1ca1-4ab1-a4dc-8142140e9643)
 
-
 2. More functionalities would be added in the future.
-
 
 Note: Some of the UIs are used as just placeholders with partial implementation.
